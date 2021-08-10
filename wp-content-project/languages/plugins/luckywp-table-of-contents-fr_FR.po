@@ -1,0 +1,633 @@
+# Translation of Plugins - LuckyWP Table of Contents - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - LuckyWP Table of Contents - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-08 14:08:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - LuckyWP Table of Contents - Stable (latest release)\n"
+
+#: config/settings.php:472
+msgid "Other Settings"
+msgstr "Autres réglages"
+
+#. translators: User select DIV or UL/LI
+#: config/settings.php:484
+msgid "List Markup Tags"
+msgstr "Balisage des listes"
+
+#: plugin/Plugin.php:271
+msgid "Inherit from theme"
+msgstr "Hériter depuis le thème"
+
+#: admin/views/rate/notice.php:34
+msgid "Don't show again"
+msgstr "Ne plus afficher"
+
+#. translators: %s: rel="nofollow"
+#: config/settings.php:462 admin/Admin.php:224
+#: admin/widgets/customizeModal/views/modal.php:611
+msgid "Use %s for links"
+msgstr "Utiliser %s pour les liens"
+
+#: config/settings.php:437
+msgid "SEO"
+msgstr "SEO"
+
+#. translators: %s: Attribute name
+#: core/validators/RequiredValidator.php:18
+msgid "%s cannot be blank."
+msgstr "%s ne peut pas être vide."
+
+#. translators: %s: (#lwptoc1, #lwptoc2, …)
+#: plugin/Plugin.php:285
+msgid "Counter %s"
+msgstr "Compteur %s"
+
+#. translators: %s: <!--noindex-->
+#: config/settings.php:447 admin/Admin.php:214
+#: admin/widgets/customizeModal/views/modal.php:584
+msgid "Wrap table of contents with %s tag"
+msgstr "Englober la table des matières dans des balises %s"
+
+#. translators: %s: LuckyWP Table of Contents
+#: admin/views/rate/notice.php:14
+msgid "We are very pleased that you by now have been using the %s plugin a few days."
+msgstr "Nous sommes très heureux de savoir que vous utilisez l’extension %s depuis quelques jours."
+
+#. translators: 1: _ 2: -
+#: config/settings.php:426
+msgid "Replace underscores %1$s with dashes %2$s"
+msgstr "Remplacer les tirets bas %1$s par des tirets %2$s"
+
+#: config/settings.php:413
+msgid "Convert to lowercase"
+msgstr "Convertir en minuscules"
+
+#. translators: Here, hash is a unique tracking string that is added to the URL
+#. after a # character
+#: config/settings.php:395
+msgid "Hash"
+msgstr "URL unique"
+
+#. translators: 1: Attribute name 2: True 3: False
+#: core/validators/BooleanValidator.php:29
+msgid "%1$s must be either \"%2$s\" or \"%3$s\"."
+msgstr "%1$s doit être soit « %2$s », soit « %3$s »."
+
+#. translators: %s: Attribute name
+#: core/validators/RangeValidator.php:29
+msgid "%s is invalid."
+msgstr "%s n’est pas valide."
+
+#: plugin/Plugin.php:282
+msgid "As heading without transliterate (#Example_Heading_Text)"
+msgstr "En tant que texte sans translitération (#Exemple_Titre_Texte)"
+
+#: config/settings.php:67 admin/Admin.php:157
+#: admin/widgets/customizeModal/views/modal.php:167
+#: admin/forms/CustomizeForm.php:248
+msgid "Numeration Suffix"
+msgstr "Suffixe de numérotation"
+
+#. translators: %s: 1.3)
+#: config/settings.php:78
+msgid "The symbol will be added after numeration. For example, %s"
+msgstr "Le symbole sera ajouté après la numérotation. Par exemple, %s"
+
+#: admin/views/rate/notice.php:28
+msgid "Remind later"
+msgstr "Me le rappeler ultérieurement"
+
+#: admin/views/rate/notice.php:21
+msgid "Rate the plugin"
+msgstr "Évaluer l’extension"
+
+#: admin/views/rate/notice.php:10
+msgid "Hello!"
+msgstr "Bonjour !"
+
+#. translators: %s: ★★★★★
+#: admin/views/settings/index.php:10
+msgid "Leave a %s plugin review on WordPress.org"
+msgstr "Laissez une évaluation de l’extension %s sur WordPress.org"
+
+#: admin/views/rate/notice.php:42
+msgid "Thank you very much!"
+msgstr "Merci bien !"
+
+#: admin/views/rate/notice.php:18
+msgid "Please rate plugin. It will help us a lot."
+msgstr "Veuillez évaluer l’extension. Cela nous aidera beaucoup."
+
+#: admin/widgets/metabox/views/box.php:64
+msgid "Enable Processing"
+msgstr "Activer le traitement"
+
+#: admin/widgets/metabox/views/box.php:49
+msgid "Disable Processing"
+msgstr "Désactiver le traitement"
+
+#: admin/widgets/metabox/views/box.php:75
+msgid "Enable TOC"
+msgstr "Activer la table des matières"
+
+#: admin/widgets/metabox/views/box.php:61
+msgid "Click \"Enable Processing\" for headings processing in this post."
+msgstr "Cliquez sur « Activer le traitement » pour le traitement des titres dans cette publication."
+
+#: admin/widgets/metabox/views/box.php:44
+msgid "Disable TOC"
+msgstr "Désactiver la table des matières"
+
+#: admin/widgets/metabox/views/box.php:18
+msgid "The headings will be processing in this post for use in table of contents in widget or custom shortcode."
+msgstr "Les titres seront traités dans cet article pour être utilisés dans la table des matières dans un widget ou un code court personnalisé."
+
+#: config/settings.php:475
+msgid "Show Panel \"Table of Contents\" in Post Types"
+msgstr "Afficher le panneau « Table des matières » dans les types de publication"
+
+#: config/settings.php:335
+msgid "Processing Headings"
+msgstr "Traitement des titres"
+
+#: config/settings.php:340
+msgid "Always for Post Types"
+msgstr "Toujours pour les types de publication"
+
+#: admin/Admin.php:231 admin/Admin.php:234
+msgid "Skip headings"
+msgstr "Passer les titres"
+
+#: config/settings.php:357
+msgid "Skip Headings"
+msgstr "Passer les titres"
+
+#: config/settings.php:360
+msgid "By Level"
+msgstr "Par niveau"
+
+#: config/settings.php:370
+msgid "By Text"
+msgstr "Par texte"
+
+#: admin/widgets/customizeModal/views/modal.php:518
+msgid "Skip heading by level"
+msgstr "Passer les titres par niveau"
+
+#: admin/widgets/customizeModal/views/modal.php:541
+msgid "Skip heading by text"
+msgstr "Passer les titres par le texte"
+
+#: config/settings.php:378 admin/widgets/customizeModal/views/modal.php:555
+msgid "Specify headings (one per line) to be excluded from the table of contents."
+msgstr "Spécifiez les titres (un par ligne) à exclure de la table des matières."
+
+#. translators: %s: Asterisk symbol (*)
+#: config/settings.php:382 admin/widgets/customizeModal/views/modal.php:559
+msgid "Use an asterisk %s as a wildcard to match any text."
+msgstr "Utilisez un astérisque %s comme caractère générique pour faire correspondre tout texte."
+
+#: plugin/Plugin.php:257
+msgid "Center"
+msgstr "Centré"
+
+#: plugin/Plugin.php:281
+msgid "As heading (#Example_Heading_Text)"
+msgstr "Comme titre (#Example_Heading_Text)"
+
+#: plugin/Plugin.php:256
+msgid "Right without flow"
+msgstr "À droite en dehors du flux"
+
+#. translators: Here, hash is a unique tracking string that is added to the URL
+#. after a # character
+#: config/settings.php:400
+msgid "Hash Format"
+msgstr "Format d’URL unique"
+
+#: config/settings.php:354 admin/widgets/customizeModal/views/modal.php:46
+msgid "Misc."
+msgstr "Divers"
+
+#: plugin/Plugin.php:335 admin/widgets/fontSizeField/views/widget.php:16
+msgid "Default"
+msgstr "Par défaut"
+
+#: plugin/Plugin.php:300 admin/widgets/fontSizeField/views/widget.php:17
+msgid "Custom Value"
+msgstr "Valeur personnalisée"
+
+#: plugin/Plugin.php:267
+msgid "Light Colors"
+msgstr "Couleurs claires"
+
+#: plugin/Plugin.php:268
+msgid "Dark Colors"
+msgstr "Couleurs sombres"
+
+#: plugin/Plugin.php:298
+msgid "Auto"
+msgstr "Auto"
+
+#: plugin/Plugin.php:299
+msgid "Full Width"
+msgstr "Pleine largeur"
+
+#: admin/Admin.php:34 admin/SiteHealth.php:42
+msgid "Settings"
+msgstr "Réglages"
+
+#: plugin/WpWidget.php:22 plugin/Plugin.php:481 admin/Admin.php:54
+#: admin/Admin.php:55 admin/Admin.php:75 admin/Admin.php:113
+#: admin/controllers/ShortcodeController.php:60
+#: admin/controllers/EditorBlockController.php:65
+msgid "Table of Contents"
+msgstr "Table des matières"
+
+#. translators: verb
+#: admin/Admin.php:115
+msgid "Edit"
+msgstr "Modifier"
+
+#: config/settings.php:305 admin/Admin.php:142
+#: admin/widgets/customizeModal/views/modal.php:54
+#: admin/forms/CustomizeForm.php:251
+msgid "Position"
+msgstr "Position"
+
+#: config/settings.php:35 admin/Admin.php:148
+#: admin/widgets/customizeModal/views/modal.php:100
+#: admin/forms/CustomizeForm.php:246
+msgid "Depth"
+msgstr "Profondeur"
+
+#: config/settings.php:44 admin/Admin.php:151
+#: admin/widgets/customizeModal/views/modal.php:122
+msgid "Hierarchical View"
+msgstr "Vue hiérarchique"
+
+#: admin/Admin.php:151 admin/Admin.php:163 admin/Admin.php:172
+#: admin/Admin.php:175 admin/Admin.php:217 admin/Admin.php:227
+#: admin/widgets/customizeModal/views/modal.php:138
+#: admin/widgets/customizeModal/views/modal.php:231
+#: admin/widgets/customizeModal/views/modal.php:294
+#: admin/widgets/customizeModal/views/modal.php:317
+#: admin/widgets/customizeModal/views/modal.php:602
+#: admin/widgets/customizeModal/views/modal.php:629
+msgid "Enabled"
+msgstr "Activé"
+
+#: admin/Admin.php:151 admin/Admin.php:163 admin/Admin.php:172
+#: admin/Admin.php:175 admin/Admin.php:217 admin/Admin.php:227
+#: admin/widgets/customizeModal/views/modal.php:138
+#: admin/widgets/customizeModal/views/modal.php:231
+#: admin/widgets/customizeModal/views/modal.php:294
+#: admin/widgets/customizeModal/views/modal.php:317
+#: admin/widgets/customizeModal/views/modal.php:602
+#: admin/widgets/customizeModal/views/modal.php:629
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: config/settings.php:55 admin/Admin.php:154
+#: admin/widgets/customizeModal/views/modal.php:145
+#: admin/forms/CustomizeForm.php:247
+msgid "Numeration"
+msgstr "Numérotation"
+
+#: config/settings.php:89 admin/Admin.php:160
+#: admin/widgets/customizeModal/views/modal.php:189
+msgid "Title"
+msgstr "Titre"
+
+#: admin/Admin.php:172
+msgid "Hide Items"
+msgstr "Masquer les éléments"
+
+#: config/settings.php:146 admin/Admin.php:175
+#: admin/widgets/customizeModal/views/modal.php:301
+msgid "Smooth Scroll"
+msgstr "Défilement fluide"
+
+#: config/settings.php:182 admin/Admin.php:181
+#: admin/widgets/customizeModal/views/modal.php:348
+msgid "Width"
+msgstr "Largeur"
+
+#: config/settings.php:194 admin/Admin.php:184
+#: admin/widgets/customizeModal/views/modal.php:371
+#: admin/forms/CustomizeForm.php:252
+msgid "Float"
+msgstr "Flottant"
+
+#: config/settings.php:203 admin/Admin.php:187
+#: admin/widgets/customizeModal/views/modal.php:393
+msgid "Title Font Size"
+msgstr "Taille de la police de titre"
+
+#: config/settings.php:225 admin/Admin.php:193
+#: admin/widgets/customizeModal/views/modal.php:439
+msgid "Items Font Size"
+msgstr "Taille de police des éléments"
+
+#: admin/controllers/ShortcodeController.php:66
+#: admin/controllers/EditorBlockController.php:71
+#: admin/widgets/widget/views/_override.php:18
+#: admin/widgets/customizeModal/views/modal.php:571
+#: admin/widgets/customizeModal/views/modal.php:654
+#: admin/widgets/metabox/views/box.php:33
+msgid "empty"
+msgstr "vide"
+
+#: admin/views/settings/index.php:13
+msgid "Table of Contents Settings"
+msgstr "Réglages de la table des matières"
+
+#: admin/widgets/customizeModal/views/modal.php:29
+#: admin/widgets/customizeModal/views/modal.php:667
+msgid "Cancel"
+msgstr "Annuler"
+
+#: config/settings.php:17 admin/widgets/customizeModal/views/modal.php:44
+msgid "General"
+msgstr "Général"
+
+#: config/settings.php:176 admin/widgets/customizeModal/views/modal.php:45
+msgid "Appearance"
+msgstr "Apparence"
+
+#: admin/widgets/customizeModal/views/modal.php:20
+msgid "default"
+msgstr "par défaut"
+
+#: config/settings.php:48 config/settings.php:99 config/settings.php:150
+#: config/settings.php:297 admin/widgets/customizeModal/views/modal.php:131
+#: admin/widgets/customizeModal/views/modal.php:224
+#: admin/widgets/customizeModal/views/modal.php:287
+#: admin/widgets/customizeModal/views/modal.php:310
+#: admin/widgets/customizeModal/views/modal.php:595
+#: admin/widgets/customizeModal/views/modal.php:622
+msgid "Enable"
+msgstr "Activer"
+
+#: admin/widgets/customizeModal/views/modal.php:204
+msgid "Without title"
+msgstr "Sans titre"
+
+#: config/settings.php:133 admin/widgets/customizeModal/views/modal.php:278
+msgid "By default, items of contents will be hidden"
+msgstr "Par défaut, les éléments de contenu seront masqués."
+
+#: admin/widgets/customizeModal/views/modal.php:671
+msgid "Save"
+msgstr "Enregistrer"
+
+#: admin/widgets/customizeSuccess/views/widget.php:9
+msgid "Saved!"
+msgstr "Enregistré !"
+
+#: admin/widgets/widget/views/form.php:19
+#: admin/widgets/metabox/views/box.php:39
+msgid "Customize"
+msgstr "Personnaliser"
+
+#: config/settings.php:91 plugin/Settings.php:100
+msgid "Contents"
+msgstr "Contenus"
+
+#: config/settings.php:114 plugin/Settings.php:116
+msgid "show"
+msgstr "afficher"
+
+#: config/settings.php:125 plugin/Settings.php:124
+msgid "hide"
+msgstr "masquer"
+
+#: config/settings.php:142
+msgid "Behavior"
+msgstr "Comportement"
+
+#: config/settings.php:253
+msgid "Background Color"
+msgstr "Сouleur d’arrière-plan"
+
+#: config/settings.php:258
+msgid "Border Color"
+msgstr "Couleur de bordure"
+
+#: config/settings.php:263
+msgid "Title Color"
+msgstr "Couleur du titre"
+
+#: config/settings.php:268
+msgid "Link Color"
+msgstr "Couleur du lien"
+
+#: config/settings.php:273
+msgid "Hover Link Color"
+msgstr "Couleur du lien au survol"
+
+#: config/settings.php:278
+msgid "Visited Link Color"
+msgstr "Couleur du lien visité"
+
+#: core/admin/AdminController.php:46
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Désolé, vous n’êtes pas autorisé à accéder à cette page."
+
+#: plugin/Plugin.php:152
+msgid "Without numeration"
+msgstr "Sans numérotation"
+
+#: plugin/Plugin.php:155
+msgid "Roman numbers (nested)"
+msgstr "Chiffres romains (imbriqués)"
+
+#: plugin/Plugin.php:156
+msgid "Roman numbers"
+msgstr "Chiffres romains"
+
+#: plugin/Plugin.php:166 plugin/Plugin.php:253 plugin/Plugin.php:398
+msgid "None"
+msgstr "Aucun"
+
+#: plugin/Plugin.php:178
+msgid "Before first heading"
+msgstr "Avant le premier titre"
+
+#: plugin/Plugin.php:179
+msgid "After first heading"
+msgstr "Après le premier titre"
+
+#: plugin/Plugin.php:254
+msgid "Left"
+msgstr "À gauche"
+
+#: plugin/Plugin.php:255
+msgid "Right"
+msgstr "À droite"
+
+#: plugin/Plugin.php:269
+msgid "White"
+msgstr "Blanc"
+
+#: plugin/Plugin.php:270
+msgid "Transparent"
+msgstr "Transparent"
+
+#: config/settings.php:23 admin/Admin.php:145
+#: admin/widgets/customizeModal/views/modal.php:77
+msgid "Minimal Count of Headings"
+msgstr "Nombre minimal de titres"
+
+#: config/settings.php:95 admin/Admin.php:163
+#: admin/widgets/customizeModal/views/modal.php:215
+msgid "Toggle Show/Hide"
+msgstr "Permuter Afficher/masquer"
+
+#: config/settings.php:107 admin/Admin.php:166
+#: admin/widgets/customizeModal/views/modal.php:238
+#: admin/forms/CustomizeForm.php:249
+msgid "Label Show"
+msgstr "Libellé « Afficher »"
+
+#: config/settings.php:118 admin/Admin.php:169
+#: admin/widgets/customizeModal/views/modal.php:258
+#: admin/forms/CustomizeForm.php:250
+msgid "Label Hide"
+msgstr "Libellé « Masquer »"
+
+#: admin/Admin.php:178 admin/widgets/customizeModal/views/modal.php:324
+msgid "Smooth Scroll Offset Top"
+msgstr "Décalage supérieur du défilement fluide"
+
+#: config/settings.php:216 admin/Admin.php:190
+#: admin/widgets/customizeModal/views/modal.php:417
+#: admin/forms/CustomizeForm.php:253
+msgid "Title Font Weight"
+msgstr "Graisse de la police de titre"
+
+#: config/settings.php:238 admin/Admin.php:196
+#: admin/widgets/customizeModal/views/modal.php:463
+#: admin/forms/CustomizeForm.php:254
+msgid "Color Scheme"
+msgstr "Jeu de couleurs"
+
+#: admin/widgets/OverrideColorBadge.php:21
+msgid "from scheme"
+msgstr "du jeu"
+
+#: admin/widgets/customizeModal/views/modal.php:30
+msgid "Customize Table of Contents"
+msgstr "Personnaliser la table des matières"
+
+#: config/settings.php:31 admin/widgets/customizeModal/views/modal.php:90
+msgid "If the count of headings in the post is less, then table of contents is not displayed."
+msgstr "Si le nombre de titres dans la publication est inférieur, alors la table des matières n’est pas affichée."
+
+#: admin/widgets/widget/views/_override.php:12
+#: admin/widgets/metabox/views/box.php:27
+msgid "Overridden settings:"
+msgstr "Réglages remplacés :"
+
+#: admin/widgets/metabox/views/box.php:14
+msgid "The table of contents will be automatic added to this post."
+msgstr "La table des matières sera automatiquement ajoutée à cet article."
+
+#: admin/widgets/metabox/views/box.php:72
+msgid "Click \"Enable TOC\" for automatic add table of contents to this post."
+msgstr "Cliquez sur « Activer la table des matières » pour ajouter automatiquement une table des matières à cette publication."
+
+#: config/settings.php:85
+msgid "Header"
+msgstr "Titre"
+
+#: config/settings.php:158
+msgid "Scroll Offset Top"
+msgstr "Décalage supérieur du défilement"
+
+#: config/settings.php:248
+msgid "Override Color Scheme Colors"
+msgstr "Modifier les couleurs du jeu de couleurs"
+
+#: config/settings.php:287
+msgid "Auto Insert"
+msgstr "Insertion auto"
+
+#: config/settings.php:293
+msgid "Auto Insert Table of Contents"
+msgstr "Insertion auto de la table des matières"
+
+#: config/settings.php:317
+msgid "Post Types"
+msgstr "Types de publication"
+
+#: plugin/Plugin.php:153
+msgid "Decimal numbers (nested)"
+msgstr "Nombres décimaux (imbriqués)"
+
+#: plugin/Plugin.php:154
+msgid "Decimal numbers"
+msgstr "Nombres décimaux"
+
+#: plugin/Plugin.php:181
+msgid "Top"
+msgstr "Haut"
+
+#: plugin/Plugin.php:182
+msgid "Bottom"
+msgstr "Bas"
+
+#: plugin/Plugin.php:216
+msgid "Thin"
+msgstr "Fin"
+
+#: plugin/Plugin.php:217
+msgid "Extra Light"
+msgstr "Extra fin"
+
+#: plugin/Plugin.php:218
+msgid "Light"
+msgstr "Fin"
+
+#: plugin/Plugin.php:219
+msgid "Normal"
+msgstr "Normal"
+
+#: plugin/Plugin.php:220
+msgid "Medium"
+msgstr "Moyen"
+
+#: plugin/Plugin.php:221
+msgid "Semi Bold"
+msgstr "Semi gras"
+
+#: plugin/Plugin.php:222
+msgid "Bold"
+msgstr "Gras"
+
+#: plugin/Plugin.php:223
+msgid "Extra Bold"
+msgstr "Très gras"
+
+#: plugin/Plugin.php:224
+msgid "Heavy"
+msgstr "Très gros"
+
+#. Description of the plugin
+#: plugin/Plugin.php:486
+msgid "Creates a table of contents for your posts/pages. Works automatically or manually (via shortcode, Gutenberg block or widget)."
+msgstr "Crée une table des matières pour vos articles/pages. Fonctionne automatiquement ou manuellement (via un code court, un bloc Gutenberg ou un widget)."
+
+#: plugin/Plugin.php:180
+msgid "After first block (paragraph or heading)"
+msgstr "Après le premier bloc (paragraphe ou titre)"
+
+#: admin/widgets/customizeModal/views/modal.php:19
+msgid "Click to override default value"
+msgstr "Cliquez pour surcharger la valeur par défaut"
